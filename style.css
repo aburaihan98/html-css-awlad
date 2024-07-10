@@ -221,3 +221,65 @@ header .banner .link a {
   height: 100%;
   border-radius: 16px;
 }
+
+/* My Current Target section style */
+.current-target {
+  border: 3px solid rebeccapurple;
+  width: 1140px;
+  height: 460px;
+  margin: 0 auto;
+}
+.current-target .content {
+  width: 852px;
+  height: 113px;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+.current-target .content h1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 24px;
+}
+.current-target .content p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.current-target .items {
+  display: flex;
+  gap: 24px;
+}
+.current-target .items .item {
+  width: 364px;
+  height: 299px;
+  padding: 40px;
+}
+.current-target .items .item > image {
+  width: 56px;
+  height: 56px;
+}
+.current-target .items .item > image > img {
+  width: 39.68px;
+  height: 56px;
+}
+.current-target .items .item > h6 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+.current-target .items .html {
+  border-radius: 16px;
+  background-color: rgba(255, 76, 30, 0.05);
+}
+.current-target .items .css {
+  border-radius: 16px;
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.current-target .items .js {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
